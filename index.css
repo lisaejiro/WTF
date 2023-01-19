@@ -1,0 +1,48 @@
+body{
+    background: darkred;
+    /* align-items: center; */
+    margin:0px;
+}
+.head{
+    color:ivory;
+    text-align: center;
+}
+.links{
+    background:white;
+    padding: 10px;
+    text-align: center;
+}
+
+.links a{
+color:brown;
+text-decoration: none;
+margin: 30px;
+}
+
+.links .active{
+    background:brown;
+    color:white;
+    padding:12px;
+}
+
+.image{
+    margin-top:30px;
+    text-align: center;
+}
+.image img{
+    width:500px;
+    
+}
+h2, p{
+    color:antiquewhite;
+    text-align: center;
+}
+.button{
+border:1px solid red;
+background: darkgreen; 
+color:aliceblue;
+padding: 10px;
+border-radius: 7px;
+width: 200px;
+font-weight: bold;
+}

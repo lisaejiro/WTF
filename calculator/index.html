@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>A Simple Calculator</h1>
+   
+    <div class="calculator">
+        <div class="output">
+     <div data-previous-operand class="previous-ans"></div>
+    <div data-current-operand class="current-ans"></div>
+        </div>
+
+        <table>
+            <tr>
+<td colspan="2"><button data-all-clear>AC</button></td>
+<td><button data-delete>DEL</button></td>
+<td><button data-operation>/</button></td>
+            </tr>
+            <tr>
+<td><button data-number>1</button></td>  
+<td><button data-number>2</button></td>
+<td><button data-number>3</button></td>
+<td><button data-operation>*</button></td>
+            </tr>
+            <tr>
+<td><button data-number>4</button></td>  
+<td><button data-number>5</button></td>
+<td><button data-number>6</button></td>
+<td><button data-operation>+</button></td>
+              </tr>
+              <tr>
+    <td><button data-number>7</button></td>  
+    <td><button data-number>8</button></td>
+    <td><button data-number>9</button></td>
+<td><button data-operation>-</button></td>
+              </tr>
+              <tr>
+    <td><button data-number>.</button></td>  
+    <td><button data-number>0</button></td>
+                <td></td>
+    <td><button data-equals>=</button></td>
+                <!-- <td><button>-</button></td> -->
+              </tr>
+        </table>
+    </div>
+    
+    <script src="calculator.js"></script>
+</body>
+</html>
